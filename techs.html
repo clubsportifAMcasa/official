@@ -1,0 +1,743 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_catalogue.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/562a18c493.js" crossorigin="anonymous"></script>
+    <title>SIHA</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="./index.html"><img src="assets/SIHA.png"></a></li>
+                <li>
+                    <div class="search-box">
+                        <div class="search-box-holder">
+                            <div class="search-categories">
+                                <div class="container">
+
+                                    <button class="click">All<i class="fas fa-caret-down"></i></button>
+                                    <div class="list">
+
+                                        <a href="./index.html"><button class="links">Home</button></a>
+                                        <a href="./categories.html"><button class="links">Categories</button></a>
+                                        <a href="./about.html"><button class="links">About Us</button></a>
+                                        <a href="#contact"><button class="links">Contact Us</button></a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <input class="search-text" type="text" placeholder="Find products">
+                            <a href="./product not found.html" class="search-button">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <i class="fas fa-shopping-cart"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="side-menu">
+            <div class="categories">
+                <div class="categories-title">
+                    <h1>CATEGORIES</h1>
+                </div>
+
+                <div class="sub-categories">
+                    <ul class="categories-list">
+                        <a href="./beauty.html">
+                            <li class="box">Beauty</li>
+                        </a>
+                        <a href="./medicaments.html">
+                            <li class="box">Medical</li>
+                        </a>
+                        <a href="./techs.html">
+                            <li class="box">Techs</li>
+                        </a>
+                        <a href="./food.html">
+                            <li class="box">Food</li>
+                        </a>
+                        <a href="./clothes.html">
+                            <li class="box">Clothes</li>
+                        </a>
+                        <a href="./jewlery.html">
+                            <li class="box">Jewlery</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="categories">
+                <div class="categories-title">
+                    <h1>CUSTOMERS RATING</h1>
+                </div>
+
+                <div class="sub-categories">
+                    <ul class="categories-list">
+                        <li class="rating-box" id="">
+                            <ul class="stars-list" id="five_stars_btn">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </li>
+                        <li class="rating-box" id="four_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & plus
+                        </li>
+                        <li class="rating-box" id="three_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & plus
+                        </li>
+                        <li class="rating-box" id="two_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & plus
+                        </li>
+                        <li class="rating-box" id="one_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & less
+                        </li>
+                        <li class="rating-box" id="all_stars_btn">All Products</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="main-body">
+            <div class="header">
+                <h3>
+                    <a href="./index.html">Home</a>
+                    >
+                    <a href="./categories.html">All Categories</a>
+                    >
+                    <a href="./techs.html">Techs</a>
+                </h3>
+            </div>
+
+            <div class="results-wrapper">
+                <div class="search-results">
+                    Search Results: "Techs"
+                </div>
+
+                <div class="display-settings">
+                    <div class="btn-holder">
+                        <div class="grid">
+                            <i class="fas fa-th" id="grid-btn"></i>
+                        </div>
+                        <div class="listed-btn">
+                            <i class="fas fa-list" id="list-btn"></i>
+                        </div>
+                    </div>
+                    <h3>Showing <span class="display-status"> All Products</span></h3>
+                </div>
+
+                <div class="products-wrapper">
+                    <div class="product-list">
+
+                        <div class="product three_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/smart watches/wat2/W2.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Willful Smart Watch for Android Phones and iOS Phones Compatible
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>12,868</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                694
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>Stylish Smart Watches for Women and Men Waterproof Smart watch has a
+                                                handsome design,with its square display
+                                                and full touch 1.4 inch colorful screen,which has 240*240 pixels
+                                                resolution make the screen clear and bright.The case of bluetooth
+                                                smart watch is made of metal.</li>
+                                            <li>Protect & monitor your health Bluetooth.</li>
+                                        </ul>
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product five_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/laptops/LAP1/L1.png" class="product_img" alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            HP 450 G3 15.6" HD Laptop, Core i5-6200U 2.3GHz, 8GB, 256GB
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                            <span>38,041</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                4,999
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li> Core i5-6200U 2.3GHz, 8GB, 256GB Solid State Drive, Windows 10 Pro
+                                                64Bit, (RENEWED)</li>
+                                            <li>his pre-owned product has been professionally inspected, tested and
+                                                cleaned by Amazon-qualified suppliers.</li>
+                                            <li>There will be no visible cosmetic imperfections when held at an arm’s
+                                                length.</li>
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="b3" class="product four_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/tablets/tab1/T1.png" class="product_img" alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            All-new Fire HD 10 tablet, 10.1", 1080p Full HD, 32 GB, Black
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                            </ul>
+                                            <span>33,577</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                1,294
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>Fast and responsive - powerful octa-core processor and 3 GB RAM. 50%
+                                                more RAM than previous generation.</li>
+                                            <li>Long-lasting 12-hour battery and 32 or 64 GB internal storage. Add up to
+                                                1 TB with microSD (sold separately).</li>
+                                            <li>Hands-free with Alexa, including on/off toggle.</li>
+                                        </ul>
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+
+                        <div class="product five_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/smart watches/wat3/W3.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Honor Watch GS Pro Smart Watch with Bluetooth GPS Fitness Runing Watch
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                            <span>40,700</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                539
+                                            </div>
+                                            <div class="coma">
+                                                49
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>1.39" AMOLED Display&14 Types of MIL-STD-810G Tests】HONOR Watch GS Pro
+                                                sports fitness watch adopting 1.39-inch AMOLED color screen display give
+                                                you vivid visual field and fine finger touching feel. </li>
+                                            <li>Complied with 14
+                                                types of MIL-STD-810G tests, including Low Pressure, High Temperature,
+                                                Low Temperature, Temperature Shock.</li>
+                                        </ul>
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="b5" class="product two_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/laptops/lap2/L2.png" class="product_img" alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Asus L510MA-DS04 15.6" Celeron N4020 4 GB RAM 128 GB eMMC
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>12,983</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                8,085
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li> Celeron N4020 / 1.1 GHz</li>
+                                            <li> Win 10 Home in S mode</li>
+                                            <li> 4 GB RAM</li>
+                                            <li> 128 GB eMMC</li>
+                                            <li> 15.6" 1920 x 1080 (Full HD)</li>
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product four_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/tablets/tab2/T2.png" class="product_img" alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Blackview Tab8 Tablet, 10.1 inch Android 10 3g Phone Tablets
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                            </ul>
+                                            <span>32,800</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                899
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>64 GB Octa Core Processor, 1920x1200 IPS FHD Display, 13MP+5MP Dual
+                                                Camera, GPS, FM, 5G
+                                                WiFi, Grey</li>
+                                            <li>The newest Android 10 Tablet & Powerful processor</li>
+                                            <li>Wi-Fi (2.4GHz + 5GHz) ensures fast and steady connection. With a thin
+                                                and light design, the Blackview Tab8 Tablet is designed to go where your
+                                                life goes.
+                                            </li>
+
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+
+                        <div class="product three_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets//products/techs/smart watches/wat1/W1.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Willful Smart Watch for Android Phones and iOS Phones Compatible
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>12,504</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                449
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>Smart watch for Android Phones Samsung iPhone - Compatible with most iOS
+                                                8.0 & Android 4.4 above smartphones.
+                                                Download and install Free "VeryFitPro" APP, bind this smartwatch in your
+                                                cell phone</li>
+                                            <li>24/7 Heart Rate Monitor & Sleep Tracker - Automatically monitor your
+                                                real-time heart rate</li>
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="b5" class="product two_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/laptops/lap3/L3.png" class="product_img" alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            MSI GE66 Raider 10UG-211 15.6" 300Hz 3ms Gaming Laptop
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>22,838</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                14,994
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li> 15.6" FHD, Anti-Glare Wide View Angle 300Hz 3ms | 1920x1080 16:9</li>
+                                            <li> Killer LAN E3100 | Intel Wi-Fi 6E AX210(2*2) | BT 5.2</li>
+                                            <li> Intel Core i7-10870H 2.2-5.0 GHz</li>
+                                            <li> NVIDIA GeForce RTX3070 8GB GDDR6</li>
+                                            <li> 32GB (16G*2) DDR4 3200MHz ; 2 Sockets, Max Memory 64GB | 1TB NVMe SSD
+                                            </li>
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product four_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/techs/tablets/tab3/T3.png" class="product_img" alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            MARVUE M10 Tablet, 10.1 inch Android Tablet, 2GB RAM 32GB ROM Storage
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                            </ul>
+                                            <span>12,868</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                1,799
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>64 GB Octa Core Processor, 1920x1200 IPS FHD Display, 13MP+5MP Dual
+                                                Camera, GPS, FM, 5G
+                                                WiFi, Grey</li>
+                                            <li>The newest Android 10 Tablet & Powerful processor</li>
+                                            <li>Wi-Fi (2.4GHz + 5GHz) ensures fast and steady connection. With a thin
+                                                and light design, the Blackview Tab8 Tablet is designed to go where your
+                                                life goes.
+                                            </li>
+
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dark"></div>
+
+                <div class="personal-contact-container">
+                    <div class="personal-contact">
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <h1>Personal Contact</h1>
+                        <form action="./test.html">
+                            <div class="name">
+                                <div class="first">
+                                    <label for="firstname">First Name :</label>
+                                    <input type="text" name="firstname" id="" placeholder="Enter your first name"
+                                        required>
+                                </div>
+                                <div class="last">
+                                    <label for="secondename">Family Name :</label>
+                                    <input type="text" name="secondename" id="" placeholder="Enter your familly name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="email">
+                            </div>
+                            <label for="email">Email Adress :</label>
+                            <input type="text" name="email" id="" placeholder="Enter your Email Adress" required>
+
+                            <label for="adresse">Adress :</label>
+                            <input type="text" name="adresse" id="" placeholder="Enter your Home Adress" required>
+
+                            <label for="city">City :</label>
+                            <input type="text" name="city" id="" placeholder="Enter your City" required>
+
+                            <label for="Phone">Phone :</label>
+                            <input type="text" name="Phone" id="" placeholder="Enter your Phone Number" required>
+
+                            <input type="submit" class="btn" value="Proceed To Payment">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="main">
+            <div class="footer">
+                <div class="single-footer">
+                    <h4>about us</h4>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="single-footer">
+                    <h4>main menu</h4>
+                    <ul>
+                        <li><a href="./index.html"> Home</a></li>
+                        <li><a href="./about.html"> About us</a></li>
+                        <li><a href="./contact.html"> Contact us</a></li>
+                        <li><a href="./categories.html"> Categories</a></li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href=""> privacy policy</a></li>
+                        <li><a href=""> terms & conditions</a></li>
+                        <li><a href=""> disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>contact us</h4>
+                    <ul class="contact-list">
+                        <li><a href=""><i class="fas fa-map-marker-alt"></i> Casablanca, Morocco</a></li>
+                        <li><a href=""><i class="fas fa-mobile-alt"></i> +212 522345623</a></li>
+                        <li><a href=""><i class="far fa-envelope"></i> contact@siha.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy">
+                <p>Copyright &copy; 2021 by SIHA | all rights reserved</p>
+            </div>
+            <img src="assets/whiteSIHA.png">
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

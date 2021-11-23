@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+--- Checkout Panel
+*/
+.checkout-panel {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+/* Panel Body */
+.panel-body {
+  padding: 45px 80px 0;
+  flex: 1;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+
+/* Payment Method */
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.payment-method .method {
+  display: flex;
+  flex-direction: column;
+  width: 382px;
+  height: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background-color: #EEECEC;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-method .method:active {
+  border: 2px solid #2484BF;
+}
+
+.blue-border {
+  border: 1px solid rgb(110, 178, 251);
+}
+
+.card-logos {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radio-input {
+  margin-top: 20px;
+}
+
+input[type='radio'] {
+  display: inline-block;
+}
+
+
+/* Input Fields */
+.input-fields {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.input-fields label {
+  display: block;
+  margin-bottom: 10px;
+  color: #b4b4b4;
+}
+
+.warning {
+  border-color: #2484BF !important;
+}
+
+.info {
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+  margin-top: 50px;
+  opacity: .5;
+  color: #2e2e2e;
+}
+
+div[class*='column'] {
+  width: 382px;
+}
+
+input[type='text'],
+input[type='password'] {
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  padding-right: 40px;
+  padding-left: 16px;
+  color: rgba(46, 46, 46, .8);
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 4px;
+  outline: none;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+  border-color: #2484BF;
+}
+
+#date {
+  background: url(img/icons_calendar_black.png) no-repeat 90%;
+}
+
+#cardholder {
+  background: url(img/icons_person_black.png) no-repeat 95%;
+}
+
+#cardnumber {
+  background: url(img/icons_card_black.png) no-repeat 95%;
+}
+
+#verification {
+  background: url(img/icons_lock_black.png) no-repeat 90%;
+}
+
+.small-inputs {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.small-inputs div {
+  width: 182px;
+}
+
+/* Panel Footer */
+.panel-footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 0 80px;
+  background-color: #C9D7DD;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Buttons */
+.btn {
+  font-size: 16px;
+  width: 163px;
+  height: 48px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 23px;
+}
+
+.back-btn {
+  color: #2484BF;
+  background: #fff;
+}
+
+.submit-btn {
+  color: #fff;
+  background: #2484BF;
+}
+
+.btn:active {
+  box-shadow: 3px 6px 30px 9px rgba(177, 177, 177, 0.6);
+}
+
+
+/*
+  --- Checkout Panel
+  */
+.verified-panel {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  width: 700px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 11px 30px 9px rgba(177, 177, 177, 0.6);
+  border-radius: 25px;
+  z-index: 15;
+}
+
+.verified-panel .close {
+  margin-top: 2%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 20;
+}
+
+.close i {
+  transition: all 0.2s ease;
+}
+
+.close i:hover {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+/* Panel Body */
+.verified-body {
+  padding: 45px 80px 0;
+  flex: 1;
+  transform: translateY(-20px);
+}
+
+.verified-body .fas {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  color: rgb(13, 194, 13);
+}
+
+.verified-body h3 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.verified-body p {
+  line-height: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.verified-body a {
+  margin-top: 25px;
+  text-decoration: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  margin-left: 180px;
+  margin-right: 180px;
+  color: #fff;
+  background: #2484BF;
+}
+
+.verified-body a:active {
+  box-shadow: 3px 6px 30px 9px rgba(177, 177, 177, 0.6);
+}
+
+.dark {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.show {
+  display: flex;
+}
