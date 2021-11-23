@@ -52,7 +52,7 @@ section .titre {
     position: relative;
     text-align: center;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
     text-transform: capitalize;
@@ -255,6 +255,7 @@ a .links:hover {
     margin: 5px 0;
     text-align: center;
     padding: 0 75px;
+    text-transform: capitalize;
 }
 
 /*////////////////////////////////////////////////   about section styling   //////////////////////////////////////////////////////////////*/
@@ -284,7 +285,7 @@ a .links:hover {
 /* ///////////////////////////////////////////////  ourteam section styling   ////////////////////////////////////////////////////////////*/
 
 .ourteam .proj-main .card {
-    width: calc(100%/4 - 5px);
+    width: calc(100%/3 - 15px);
     height: 450px;
     background: #fff;
     text-align: center;
@@ -309,19 +310,8 @@ a .links:hover {
     color: #1f5793;
     font-family: 'Exo 2', sans-serif;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     margin: 25px 0 7px 0;
-    text-transform: uppercase;
-    white-space: nowrap;
-    text-align: center;
-}
-
-.ourteam .proj-main .card .text-halima {
-    color: #1f5793;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 25px;
-    font-weight: 500;
-    margin: 20px 0 0 0;
     text-transform: uppercase;
     white-space: nowrap;
     text-align: center;
@@ -332,24 +322,7 @@ a .links:hover {
     text-align: justify;
     color: #333;
     font-size: 17px;
-}
-
-.ourteam .proj-main .card .p-halima {
-    margin-top: 15px;
-    text-align: justify;
-    color: #333;
-    font-size: 17px;
-}
-
-.ourteam .proj-main .card h2 {
-    margin-top: 30px;
-    text-align: center;
-    color: #333;
-    font-size: 35px;
-    font-family: 'Baloo 2', sans-serif;
-    font-weight: 600;
-    color: #2484bf;
-
+    padding: 0px 20px;
 }
 
 
@@ -396,7 +369,7 @@ footer {
     background-image: url("../assets/footer.png");
     background-position-x: center;
     padding: 10px 0px;
-    height: 85vh;
+    height: 75vh;
 }
 
 footer .main {
