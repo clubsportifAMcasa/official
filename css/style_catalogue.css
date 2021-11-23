@@ -423,9 +423,7 @@ main {
 
 .product_listed {
     flex-direction: row;
-    padding-left: 50px;
     box-sizing: border-box;
-    width: 50%;
 }
 
 
@@ -437,7 +435,6 @@ main {
 .listed-back-card {
     transform: rotateY(0);
     position: relative;
-    width: 40%;
     margin-left: auto;
 }
 
@@ -451,7 +448,7 @@ main {
 
 .back-card .product-description>h1 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 1rem;
 }
 
 .back-card .product-description p {
@@ -462,7 +459,16 @@ main {
 .back-card .product-description ul {
     font-size: 14px;
     list-style: disc;
-    margin-left: 20px;
+    margin-left: 4rem;
+}
+
+.back-card .product-description ul li {
+    margin-bottom: 4px;
+}
+
+.btn-holder {
+    display: flex;
+    justify-content: center;
 }
 
 .back-card .product-description .buy-product {
@@ -471,7 +477,7 @@ main {
     align-items: center;
     position: absolute;
     bottom: 10px;
-    width: calc(100% - 40px);
+    width: 50%;
     height: 50px;
     margin: 0;
     background-color: #2484BF;
@@ -484,9 +490,14 @@ main {
 
 .img_listed,
 .product .product_img {
-    width: 200px;
-    height: 200px;
-    transform: scale(0.9) translateY(10px);
+    width: 300px;
+    height: 300px;
+}
+
+.img_holder_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #toothpaste img {
@@ -526,9 +537,6 @@ main {
     font-size: 20px;
 }
 
-.img_listed {
-    transform: scale(1.2);
-}
 
 .product-rating {
     margin-top: 10px;
