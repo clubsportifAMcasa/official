@@ -82,9 +82,10 @@
 
                 <div class="sub-categories">
                     <ul class="categories-list">
-                        <li class="box">On Going</li>
-                        <li class="box">Finished</li>
-                        <li class="box">Up Coming</li>
+                        <li id="ongoing_btn" class="box">Ongoing</li>
+                        <li id="finished_btn" class="box">Finished</li>
+                        <li id="upcoming_btn" class="box">Upcoming</li>
+                        <li id="all_tournaments_btn" class="box">All Tournamens</li>
                     </ul>
                 </div>
             </div>
@@ -95,14 +96,14 @@
             <div class="header">
                 <h3>
                     <a href="./index.html">Home</a>
-                    <a href="./categories.html">All Categories</a>
-                    <a href="./beauty.html">Beauty</a>
+                    >
+                    <a href="./all_tournaments.html">All Tournamens</a>
                 </h3>
             </div>
 
             <div class="results-wrapper">
                 <div class="search-results">
-                    Search Results: "Beauty"
+                    Search Results: "All Tournaments"
                 </div>
 
                 <div class="display-settings">
@@ -114,13 +115,13 @@
                             <i class="fas fa-list" id="list-btn"></i>
                         </div>
                     </div>
-                    <h3>Showing <span class="display-status"> All Products</span></h3>
+                    <h3>Showing <span class="display-status"> All Tournaments</span></h3>
                 </div>
 
                 <div class="products-wrapper">
                     <div class="product-list listed">
 
-                        <div class="product three_stars">
+                        <div class="product ongoing">
                             <div class="inner-card flex">
                                 <div class="img_holder_flex">
                                     <img src="./assets/csam-foot.png" class="img_listed" alt="">
@@ -130,7 +131,7 @@
                                         <h1>CSAM Foot Tournament 21</h1>
                                         <ul>
                                             <br><br>
-                                            <li><b>Status: </b>&nbsp On going</li>
+                                            <li><b>Status: </b>&nbsp Ongoing</li>
                                             <li><b>Category: </b>&nbsp Football</li>
                                             <li><b>Nuber of Participants: </b>&nbsp 112 (16 Team)</li>
                                             <li><b>Start Date: </b>&nbsp 5/11/2021</li>
@@ -147,7 +148,7 @@
                             </div>
                         </div>
 
-                        <div class="product three_stars">
+                        <div class="product finished">
                             <div class="inner-card flex">
                                 <div class="img_holder_flex">
                                     <img src="./assets/csam-foot.png" class="img_listed" alt="">
@@ -157,11 +158,11 @@
                                         <h1>CSAM Foot Tournament 21</h1>
                                         <ul>
                                             <br><br>
-                                            <li><b>Status: </b>&nbsp On going</li>
+                                            <li><b>Status: </b>&nbsp Finished</li>
                                             <li><b>Category: </b>&nbsp Football</li>
                                             <li><b>Nuber of Participants: </b>&nbsp 112 (16 Team)</li>
-                                            <li><b>Start Date: </b>&nbsp 5/11/2021</li>
-                                            <li><b>Start Date: </b>&nbsp TBD</li>
+                                            <li><b>Start Date: </b>&nbsp 18/12/2019</li>
+                                            <li><b>Start Date: </b>&nbsp 30/3/2020</li>
 
                                         </ul>
                                         <div class="btn-holder">
@@ -174,7 +175,7 @@
                             </div>
                         </div>
 
-                        <div class="product three_stars">
+                        <div class="product upcoming">
                             <div class="inner-card flex">
                                 <div class="img_holder_flex">
                                     <img src="./assets/csam-foot.png" class="img_listed" alt="">
@@ -184,10 +185,10 @@
                                         <h1>CSAM Foot Tournament 21</h1>
                                         <ul>
                                             <br><br>
-                                            <li><b>Status: </b>&nbsp On going</li>
+                                            <li><b>Status: </b>&nbsp Upcoming</li>
                                             <li><b>Category: </b>&nbsp Football</li>
-                                            <li><b>Nuber of Participants: </b>&nbsp 112 (16 Team)</li>
-                                            <li><b>Start Date: </b>&nbsp 5/11/2021</li>
+                                            <li><b>Nuber of Participants: </b>&nbsp TBD</li>
+                                            <li><b>Start Date: </b>&nbsp TBD</li>
                                             <li><b>Start Date: </b>&nbsp TBD</li>
 
                                         </ul>
@@ -293,7 +294,7 @@
             <img src="assets/whiteSIHA.png">
         </div>
     </footer>
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/filter_status.js"></script>
 </body>
 
 </html>
