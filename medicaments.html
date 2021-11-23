@@ -1,0 +1,605 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_catalogue.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/562a18c493.js" crossorigin="anonymous"></script>
+    <title>SIHA</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="./index.html"><img src="assets/SIHA.png"></a></li>
+                <li>
+                    <div class="search-box">
+                        <div class="search-box-holder">
+                            <div class="search-categories">
+                                <div class="container">
+
+                                    <button class="click">All<i class="fas fa-caret-down"></i></button>
+                                    <div class="list">
+
+                                        <a href="./index.html"><button class="links">Home</button></a>
+                                        <a href="./categories.html"><button class="links">Categories</button></a>
+                                        <a href="./about.html"><button class="links">About Us</button></a>
+                                        <a href="#contact"><button class="links">Contact Us</button></a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <input class="search-text" type="text" placeholder="Find products">
+                            <a href="./product not found.html" class="search-button">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <i class="fas fa-shopping-cart"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="side-menu">
+            <div class="categories">
+                <div class="categories-title">
+                    <h1>CATEGORIES</h1>
+                </div>
+
+                <div class="sub-categories">
+                    <ul class="categories-list">
+                        <a href="./beauty.html">
+                            <li class="box">Beauty</li>
+                        </a>
+                        <a href="./medicaments.html">
+                            <li class="box">Medical</li>
+                        </a>
+                        <a href="./techs.html">
+                            <li class="box">Techs</li>
+                        </a>
+                        <a href="./food.html">
+                            <li class="box">Food</li>
+                        </a>
+                        <a href="./clothes.html">
+                            <li class="box">Clothes</li>
+                        </a>
+                        <a href="./jewlery.html">
+                            <li class="box">Jewlery</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="categories">
+                <div class="categories-title">
+                    <h1>CUSTOMERS RATING</h1>
+                </div>
+
+                <div class="sub-categories">
+                    <ul class="categories-list">
+                        <li class="rating-box" id="">
+                            <ul class="stars-list" id="five_stars_btn">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                        </li>
+                        <li class="rating-box" id="four_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & plus
+                        </li>
+                        <li class="rating-box" id="three_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & plus
+                        </li>
+                        <li class="rating-box" id="two_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & plus
+                        </li>
+                        <li class="rating-box" id="one_stars_btn">
+                            <ul class="stars-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                                <li><i class="far fa-star"></i></li>
+                            </ul>
+                            & less
+                        </li>
+                        <li class="rating-box" id="all_stars_btn">All Products</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="main-body">
+            <div class="header">
+                <h3>
+                    <a href="./index.html">Home</a>
+                    >
+                    <a href="./categories.html">All Categories</a>
+                    >
+                    <a href="./medicaments.html">Medical</a>
+                </h3>
+            </div>
+
+            <div class="results-wrapper">
+                <div class="search-results">
+                    Search Results: "Medical"
+                </div>
+
+                <div class="display-settings">
+                    <div class="btn-holder">
+                        <div class="grid">
+                            <i class="fas fa-th" id="grid-btn"></i>
+                        </div>
+                        <div class="listed-btn">
+                            <i class="fas fa-list" id="list-btn"></i>
+                        </div>
+                    </div>
+                    <h3>Showing <span class="display-status"> All Products</span></h3>
+                </div>
+
+                <div class="products-wrapper">
+                    <div class="product-list">
+
+                        <div id="mask" class="product four_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/coronastuffs/prod1/prod1.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Disposable Masks 50 PCS, AXHKIO Face Mask
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                            </ul>
+                                            <span>1,127</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                69
+                                            </div>
+                                            <div class="coma">
+                                                99
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>
+                                                These masks are only disposable face masks.
+                                            </li>
+                                            <li>
+                                                TIP: THE RIGHT WAY TO WAER A MASK - The BLUE side of the mask is
+                                                usually the front and should face away from you, while the white side
+                                                touches your face.
+                                            </li>
+                                        </ul>
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="rollpaper" class="product four_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/coronastuffs/prod2/prod2.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Presto! 308-Sheet Mega Roll Toilet Paper, Ultra-Soft, 24 Count
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                            </ul>
+                                            <span>73,730</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                200
+                                            </div>
+                                            <div class="coma">
+                                                00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>
+                                                Includes 24 Mega Rolls (4 Packs of 6 Mega Rolls) with 308 2-ply sheets
+                                                per roll.
+                                            </li>
+                                            <li>
+                                                24 Mega Rolls = 96 Regular Rolls (based on a regular roll with 77
+                                                sheets)
+                                            </li>
+                                        </ul>
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="hand_sanitizer" class="product four_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/coronastuffs/prod3/prod3.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Maybelline Sky High Washable Mascara Makeup, Volumizing Mascara
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                            </ul>
+                                            <span>212</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                60
+                                            </div>
+                                            <div class="coma">
+                                                00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>
+                                                Hand sanitizer Gel 70% Alcohol by Teliaoils
+                                            </li>
+                                            <li>
+                                                Teliaoils hand sanitizer, make your hands feel smooth and fresh.
+                                            </li>
+                                            <li>
+                                                No need to rinse with water.
+                                            </li>
+                                        </ul>
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+                        <div class="seperator"></div>
+
+                        <div id="handsoap" class="product five_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/coronastuffs/prod4/prod4.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Softsoap Antibacterial Liquid Hand Soap, Fresh Citrus
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                            <span>40,700</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                40
+                                            </div>
+                                            <div class="coma">
+                                                49
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>
+                                                Unique antibacterial hand soap formula is clinically proven to eliminate
+                                                99.9% of bacteria
+                                            </li>
+                                            <li>
+                                                Moisturizers in the liquid hand soap leaves skin feeling soft and
+                                                protected
+                                            </li>
+                                            <li>
+                                                Fresh citrus scented hand soap
+                                            </li>
+                                        </ul>
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="b5" class="product three_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets/products/coronastuffs/prod5/prod5.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Vibeey Thermometer for Adults, Digital Non-Contact Forehead Infrared
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star-half-alt"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>2,868</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                179
+                                            </div>
+                                            <div class="coma">
+                                                90
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>
+                                                Non-contact Measurement: Avoiding direct contact with the skin makes the
+                                                measuring process safer and healthier.
+                                            </li>
+                                            <li>
+                                                You can choose to measure using Fahrenheit or Celsius
+                                            </li>
+                                            <li>
+                                                Get accurate readings quickly within 1 second
+                                            </li>
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product three_stars">
+                            <div class="inner-card flip-product">
+                                <div class="front-card">
+                                    <img src="./assets//products/coronastuffs/prod6/prod6.png" class="product_img"
+                                        alt="">
+                                    <div class="description">
+                                        <h3 class="title">
+                                            Plush Facial Tissues 130 Per Box Size
+                                        </h3>
+                                        <div class="product-rating">
+                                            <ul class="stars-list">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                                <li><i class="far fa-star"></i></li>
+                                            </ul>
+                                            <span>73</span>
+                                        </div>
+                                        <div class="price">
+                                            <div class="currency">
+                                                DHS
+                                            </div>
+                                            <div class="main-price">
+                                                120
+                                            </div>
+                                            <div class="coma">
+                                                00
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="back-card">
+                                    <div class="product-description">
+                                        <h1>About This Item</h1>
+                                        <ul>
+                                            <li>
+                                                Contains 5 tissue boxes of Ultra soft Plush Tissues = 1300 tissues total
+                                            </li>
+                                            <li>
+                                                Ensure Your Hotel Or Restaurant Guests Have Quick Access To Tissues With
+                                                This Facial Tissue
+                                            </li>
+                                            <li>
+                                                Each Tissue Features Superior Softness, Strength, And Absorbency.
+                                            </li>
+                                        </ul>
+
+                                        <div class="buy-product">
+                                            <h1>Buy Now</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="dark"></div>
+
+                <div class="personal-contact-container">
+                    <div class="personal-contact">
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <h1>Personal Contact</h1>
+                        <form action="./test.html">
+                            <div class="name">
+                                <div class="first">
+                                    <label for="firstname">First Name :</label>
+                                    <input type="text" name="firstname" id="" placeholder="Enter your first name"
+                                        required>
+                                </div>
+                                <div class="last">
+                                    <label for="secondename">Family Name :</label>
+                                    <input type="text" name="secondename" id="" placeholder="Enter your familly name"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="email">
+                            </div>
+                            <label for="email">Email Adress :</label>
+                            <input type="text" name="email" id="" placeholder="Enter your Email Adress" required>
+
+                            <label for="adresse">Adress :</label>
+                            <input type="text" name="adresse" id="" placeholder="Enter your Home Adress" required>
+
+                            <label for="city">City :</label>
+                            <input type="text" name="city" id="" placeholder="Enter your City" required>
+
+                            <label for="Phone">Phone :</label>
+                            <input type="text" name="Phone" id="" placeholder="Enter your Phone Number" required>
+
+                            <input type="submit" class="btn" value="Proceed To Payment">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="main">
+            <div class="footer">
+                <div class="single-footer">
+                    <h4>about us</h4>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="single-footer">
+                    <h4>main menu</h4>
+                    <ul>
+                        <li><a href="./index.html"> Home</a></li>
+                        <li><a href="./about.html"> About us</a></li>
+                        <li><a href="./contact.html"> Contact us</a></li>
+                        <li><a href="./categories.html"> Categories</a></li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href=""> privacy policy</a></li>
+                        <li><a href=""> terms & conditions</a></li>
+                        <li><a href=""> disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>contact us</h4>
+                    <ul class="contact-list">
+                        <li><a href=""><i class="fas fa-map-marker-alt"></i> Casablanca, Morocco</a></li>
+                        <li><a href=""><i class="fas fa-mobile-alt"></i> +212 522345623</a></li>
+                        <li><a href=""><i class="far fa-envelope"></i> contact@siha.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy">
+                <p>Copyright &copy; 2021 by SIHA | all rights reserved</p>
+            </div>
+            <img src="assets/whiteSIHA.png">
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
