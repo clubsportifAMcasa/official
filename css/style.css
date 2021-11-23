@@ -441,7 +441,7 @@ main {
     background-image: url("../assets/blueback.png");
     background-repeat: repeat;
     padding: 100px 0px;
-    height: 200vh;
+    height: 180vh;
 }
 
 .working .titre {
@@ -452,12 +452,12 @@ main {
 }
 
 .working .wrk-main {
-    margin: 80px;
+    margin: 50px;
 }
 
 .working .wrk-main .card {
-    width: 100%;
-    height: 350px;
+    width: 97%;
+    height: 400px;
     background: #fff;
     text-align: center;
     box-shadow: 6px 4px 4px rgba(43, 40, 40, 0.25);
@@ -468,35 +468,52 @@ main {
 .working .wrk-main .card .box {
     transition: all 0.6s ease;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    
     align-items: center;
 }
 
 .working .wrk-main .card .box img {
-    margin-right: 50;
-    height: 160px;
-    width: auto;
+    height: 400px;
+    width: 400px;
 }
 
 .working .description-holder {
     background-color: #104D73;
-    height: 350px;
+    height: 400px;
     width: 70%;
 }
 
 .working .wrk-main .card .text {
     color: #fff;
-    font-size: 25px;
-    font-weight: 500;
-    margin-top: 35px;
-    padding-top: 10px;
-    font-family: 'Baloo 2', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-top: 0px;
 }
+
+.working .wrk-main .card .s-text {
+    color: rgba(212, 212, 212, 0.808);
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 23px;
+    font-weight: 300;
+    margin-left: 110px;
+    margin-top: 60px;
+}
+
 
 .working .wrk-main .card p {
     color: #fff;
     font-size: 17px;
-    padding: 20px 90px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 80px;
+    line-height: 25px;
 }
 
 

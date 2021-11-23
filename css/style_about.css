@@ -259,25 +259,26 @@ a .links:hover {
 
 /*////////////////////////////////////////////////   about section styling   //////////////////////////////////////////////////////////////*/
 .about .about-main .part-2 {
-    width: 40%;
+    width: 45%;
 }
 
 .about .about-main .part-2 img {
-    height: 400px;
-    width: 400px;
+    height: 420px;
+    width: 420px;
     object-fit: cover;
     border-radius: 6px;
     box-shadow: 4px 4px 5px 5px rgba(119, 136, 153, 0.421);
-    border: 5px solid #2484bf;
-    border-radius: 50%;
+    border: 5px solid #72adc3;
+    /* border-radius: 50%; */
 }
 
 .about .about-main .part-1 {
-    width: 50%;
+    width: 55%;
 }
 
 .about .about-main .part-1 p {
     text-align: justify;
+    line-height: 2;
 }
 
 /* ///////////////////////////////////////////////  ourteam section styling   ////////////////////////////////////////////////////////////*/
