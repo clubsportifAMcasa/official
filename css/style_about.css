@@ -103,12 +103,12 @@ section .titre {
 
 .nav-list img {
     padding-top: 10px;
-    height: 180px;
+    height: 70px;
+    line-height: 200;
     width: auto;
 }
 
 nav {
-    font-family: 'Poppins', sans-serif;
     color: white;
     background-color: white;
     width: 100%;
@@ -121,7 +121,7 @@ nav {
 .search-box-holder {
     display: flex;
     width: 50vw;
-    height: 6vh;
+    height: 60%;
     justify-content: center;
     align-items: center;
     background-color: #E9E9E9;
@@ -134,7 +134,7 @@ nav {
 }
 
 .click {
-    background-color: #2484BF;
+    background-color: #042a5d;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     margin-bottom: 1px;
@@ -144,12 +144,6 @@ nav {
 
 .click:hover {
     background-color: rgba(36, 132, 191, 0.843);
-}
-
-
-.click,
-.links {
-    height: 6vh;
 }
 
 .click,
@@ -215,7 +209,7 @@ a .links:hover {
     justify-content: center;
     align-items: center;
     margin-left: auto;
-    background-color: #2484BF;
+    background-color: #042a5d;
     border-radius: 0px 5px 5px 0px;
     color: white;
 }
