@@ -152,6 +152,15 @@ a {
     justify-content: center;
 }
 
+.tous-les-jours .ico {
+    margin-right: 1rem;
+}
+
+.tous-les-jours .ico .fas {
+    font-size: 2.5rem;
+    color: #72adc3;
+}
+
 .tous-les-jours h3 {
     font-size: 35px;
     font-weight: 900;
@@ -162,6 +171,7 @@ a {
     color: #72adc3;
 }
 
+
 /*------------------------------*/
 
 .tarifs {
@@ -170,6 +180,8 @@ a {
 
 .tarifs h1 {
     text-align: center;
+    color: #333333;
+    font-weight: 900;
 }
 
 .tarifs .tableau {
