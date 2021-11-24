@@ -120,15 +120,3 @@ close_btn.addEventListener('click', () => {
     dark.classList.remove('show')
     personnal_contact_container.classList.remove('show')
 })
-
-
-// Drop down menu
-
-let click = document.querySelector('.click');
-let list = document.querySelector('.list');
-
-click.addEventListener("click", () => {
-
-    list.classList.toggle('newlist');
-
-});
