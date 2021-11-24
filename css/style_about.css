@@ -61,7 +61,7 @@ section .titre {
 .about .line-title,
 .career .line-title,
 .choose .line-title {
-    border-bottom: 3.5px solid #2484bf;
+    border-bottom: 3.5px solid #72adc3;
     margin: 0px 420px 70px 420px;
 
 }
@@ -102,10 +102,10 @@ section .titre {
 }
 
 .nav-list img {
-    padding-top: 10px;
-    height: 70px;
-    line-height: 200;
+    height: 60px;
     width: auto;
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -184,7 +184,7 @@ a .links:hover {
 }
 
 .links:hover {
-    background-color: #2484BF;
+    background-color: #72adc3;
     color: #fff;
 
 }
@@ -204,7 +204,7 @@ a .links:hover {
 
 .search-button {
     display: flex;
-    height: 100%;
+    height: 45px;
     width: 15%;
     justify-content: center;
     align-items: center;
@@ -220,7 +220,7 @@ a .links:hover {
 }
 
 .fa-shopping-cart {
-    color: #2484BF;
+    color: #72adc3;
     font-size: 1.5em;
 }
 
@@ -285,7 +285,7 @@ a .links:hover {
     text-align: center;
     padding: 20px 25px;
     transition: all 0.6s ease;
-    border: 3px solid #1f5793;
+    border: 3px solid #72adc3;
 }
 
 .ourteam .proj-main .card .box {
@@ -293,7 +293,7 @@ a .links:hover {
 }
 
 .ourteam .proj-main .card .box img {
-    border: 3.5px solid #1f5793;
+    border: 3.5px solid #72adc3;
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -301,7 +301,7 @@ a .links:hover {
 }
 
 .ourteam .proj-main .card .text {
-    color: #1f5793;
+    color: #72adc3;
     font-family: 'Exo 2', sans-serif;
     font-size: 25px;
     font-weight: 600;
@@ -327,7 +327,6 @@ a .links:hover {
     margin-right: auto;
     height: 380px;
     width: auto;
-    border: 3.5px solid #2484bf;
 }
 
 .career .paragraph {
@@ -362,7 +361,7 @@ footer {
     color: #fff;
     background-image: url("../assets/footer.png");
     background-position-x: center;
-    padding: 10px 0px;
+    padding: 20px 0px;
     height: 75vh;
 }
 
@@ -372,10 +371,9 @@ footer .main {
 }
 
 footer .main img {
-    height: 200px;
+    height: 120px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 80px auto;
 }
 
 footer .main h2 {
@@ -387,7 +385,7 @@ footer .main h2 {
 }
 
 footer .main h2 span {
-    color: #2484BF;
+    color: #72adc3;
     margin-left: 10px;
     font-family: 'Baloo 2', sans-serif;
     font-size: 28px;
@@ -410,7 +408,7 @@ footer .main .footer .single-footer h4 {
     text-transform: capitalize;
     font-size: 22px;
     margin-bottom: 20px;
-    color: #2484BF;
+    color: #72adc3;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -454,23 +452,15 @@ footer .main .footer .single-footer ul li a {
 
 footer .main .footer .single-footer ul li a i {
     margin-right: 10px;
-    color: #2484BF;
+    color: #72adc3;
 }
 
 footer .main .copy {
     text-align: center;
     text-transform: capitalize;
-    margin-top: 75px;
-    margin-bottom: 35px;
-    font-family: 'Ubuntu', sans-serif;
+    margin-top: 45px;
+    font-family: 'Ubuntu';
 }
-
-footer .single-footer .contact-list li a {
-    display: flex;
-    align-items: center;
-}
-
-
 
 
 
@@ -698,7 +688,7 @@ h3:after {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2484bf;
+    background-color: #72adc3;
 }
 
 .field {
@@ -732,7 +722,7 @@ textarea {
 .btn-reset {
     width: 160px;
     padding: 0.5rem 1rem;
-    background-color: #2484bf;
+    background-color: #72adc3;
     color: #fff;
     font-size: 1.1rem;
     border: none;
@@ -749,7 +739,7 @@ textarea {
 }
 
 .btn-send:hover {
-    background-color: #2484bfc9;
+    background-color: #72adc3c9;
     color: #fff;
 }
 
@@ -759,7 +749,7 @@ textarea {
 }
 
 .field:focus {
-    border: 2px solid #2484bf;
+    border: 2px solid #72adc3;
     background-color: #fff;
 }
 

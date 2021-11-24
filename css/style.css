@@ -34,10 +34,10 @@ ul {
 }
 
 .nav-list img {
-    padding-top: 10px;
-    height: 70px;
-    line-height: 200;
+    height: 60px;
     width: auto;
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -116,7 +116,7 @@ a .links:hover {
 }
 
 .links:hover {
-    background-color: #2484BF;
+    background-color: #72adc3;
     color: #fff;
 
 }
@@ -152,7 +152,7 @@ a .links:hover {
 }
 
 .fa-shopping-cart {
-    color: #2484BF;
+    color: #72adc3;
     font-size: 1.5em;
 }
 
@@ -264,7 +264,7 @@ main {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #2484BF;
+    background-color: #72adc3;
 }
 
 .shop-now-btn {
@@ -333,7 +333,7 @@ main {
 /*/////////////////// CARROUSSEL ///////////////////////*/
 
 .caroussel {
-    color: #2484BF;
+    color: #72adc3;
     background-repeat: no-repeat;
     padding: 60px 0px;
 }
@@ -372,8 +372,8 @@ main {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-top: 5px solid #2484BF;
-    border-bottom: 5px solid #2484BF;
+    border-top: 5px solid #72adc3;
+    border-bottom: 5px solid #72adc3;
 }
 
 .caroussel .ctg-main .dotcenter {
@@ -530,7 +530,7 @@ main {
 /*/////////////////// PROPERTIES ///////////////////////*/
 
 .properties {
-    color: #2484BF;
+    color: #72adc3;
     background-repeat: no-repeat;
     padding: 60px 0px;
     margin-top: -110px;
@@ -605,7 +605,7 @@ footer .main h2 {
 }
 
 footer .main h2 span {
-    color: #2484BF;
+    color: #72adc3;
     margin-left: 10px;
     font-family: 'Baloo 2', sans-serif;
     font-size: 28px;
@@ -628,7 +628,7 @@ footer .main .footer .single-footer h4 {
     text-transform: capitalize;
     font-size: 22px;
     margin-bottom: 20px;
-    color: #2484BF;
+    color: #72adc3;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -672,7 +672,7 @@ footer .main .footer .single-footer ul li a {
 
 footer .main .footer .single-footer ul li a i {
     margin-right: 10px;
-    color: #2484BF;
+    color: #72adc3;
 }
 
 footer .main .copy {
