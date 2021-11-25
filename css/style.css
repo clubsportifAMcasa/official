@@ -684,7 +684,21 @@ main {
     margin-bottom: 2vh;
 }
 
+.front-card img {
+    width: 8rem;
+}
 
+.back-card .btn {
+    width: 50%;
+    height: 5vh;
+    background-color: #042a5d;
+    color: white;
+    margin: 0 auto;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
