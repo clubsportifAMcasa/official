@@ -366,7 +366,7 @@ main {
     text-shadow: 1px 1px 5px rgba(65, 65, 65, 0.253);
 }
 
-.caroussel .ctg-main .slideshow-container .mySlides .text-1{
+.caroussel .ctg-main .slideshow-container .mySlides .text-1 {
     color: #ebc20f;
 }
 
@@ -449,9 +449,9 @@ main {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
     font-size: 42px;
-    margin-bottom : 100px;
+    margin-bottom: 100px;
     color: #042a5d;
-    
+
 }
 
 .working .wrk-main {
@@ -472,7 +472,7 @@ main {
     transition: all 0.6s ease;
     display: flex;
     justify-content: space-between;
-    
+
     align-items: center;
 }
 
@@ -580,6 +580,113 @@ main {
     font-size: 14px;
     padding: 5px 30px;
 }
+
+
+/* ///////////// FLIP CARDS /////////////////////*/
+
+.products-wrapper {
+    margin: 50px
+}
+
+
+.product-list {
+    display: grid;
+    grid-gap: 90px 40px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.product {
+    perspective: 1000px;
+    min-height: 400px;
+}
+
+.product .inner-card {
+    font-size: 50px;
+    color: black;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all .6s ease;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.product:hover .inner-card {
+    transform: rotateY(180deg);
+    width: 100%;
+}
+
+.front-card,
+.back-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.front-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-card .description {
+    padding: 0 30px;
+    margin-top: 20px;
+}
+
+.product .description .title {
+    color: #72adc3;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.front-card .commentaire,
+.back-card .commentaire {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.back-card .commentaire ul {
+    text-align: left;
+
+}
+
+.front-card .fas {
+    font-size: 90px;
+    color: #042a5d;
+}
+
+.back-card {
+    display: flex;
+    transform: rotateY(180deg);
+}
+
+.back-card .back-card-wrapper {
+    height: 100%;
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sports {
+    margin-bottom: 2vh;
+}
+
+
+
+
 
 /* ///////////////////////////////////////////// FOOTER /////////////////////////////////////////////////// */
 footer {
