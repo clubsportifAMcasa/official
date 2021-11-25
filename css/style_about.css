@@ -331,10 +331,11 @@ a .links:hover {
 
 .career .paragraph {
     display: block;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 240px;
+    margin-right: 240px;
     margin-top: 80px;
     text-align: justify;
+    line-height: 1.8;
 }
 
 /*////////////////////////////////////////////////   objectives section styling   //////////////////////////////////////////////////////////////*/
@@ -345,6 +346,7 @@ a .links:hover {
     margin-top: 80px;
     margin-bottom: 80px;
     text-align: justify;
+    line-height: 1.8;
 }
 
 /*////////////////////////////////////////////////   objectives section styling   //////////////////////////////////////////////////////////////*/
@@ -354,6 +356,7 @@ a .links:hover {
     margin-right: 200px;
     margin-top: 80px;
     text-align: justify;
+    line-height: 1.8;
 }
 
 /* ///////////////////////////////////////////// FOOTER /////////////////////////////////////////////////// */
