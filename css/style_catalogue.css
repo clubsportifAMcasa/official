@@ -720,6 +720,11 @@ form .btn {
     text-align: center;
 }
 
+.btn-holder .buy-product a {
+    color: white;
+
+}
+
 /* ///////////////////////////////////////////// FOOTER /////////////////////////////////////////////////// */
 footer {
     color: #fff;
