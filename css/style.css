@@ -681,7 +681,8 @@ main {
 }
 
 #sports {
-    margin-bottom: 2vh;
+    margin-left: 2vh;
+    padding: 10px 5px 10px 5px;
 }
 
 .front-card img {
@@ -806,3 +807,27 @@ footer .main .copy {
     text-transform: capitalize;
     margin-top: 45px;
 }
+
+/* /////////////////////////////////////// SCROLLBAR ////////////////////////////////////////////////// */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(173, 173, 173, 0.76); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #72adc3; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #72adc3; 
+  }
