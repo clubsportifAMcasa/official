@@ -42,10 +42,10 @@ a {
 }
 
 .nav-list img {
-    padding-top: 10px;
-    height: 70px;
-    line-height: 200;
+    height: 60px;
     width: auto;
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -124,7 +124,7 @@ a .links:hover {
 }
 
 .links:hover {
-    background-color: #2484BF;
+    background-color: #72adc3;
     color: #fff;
 
 }
@@ -160,7 +160,7 @@ a .links:hover {
 }
 
 .fa-shopping-cart {
-    color: #2484BF;
+    color: #72adc3;
     font-size: 1.5em;
 }
 
@@ -185,7 +185,7 @@ main {
 .side-menu {
     width: 20%;
     height: 85vh;
-    background-color: #2484BF;
+    background-color: #72adc3;
     position: fixed;
     left: 20px;
     overflow-y: scroll;
@@ -345,7 +345,7 @@ main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #2484BF;
+    background-color: #72adc3;
     color: white;
     height: 70px;
     padding: 0 20px;
@@ -464,7 +464,8 @@ main {
 .back-card .product-description ul {
     font-size: 14px;
     list-style: disc;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    margin-top: 20px;
 }
 
 .back-card .product-description ul li {
@@ -481,11 +482,12 @@ main {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 25px;
+    left: 70;
     width: 50%;
     height: 50px;
     margin: 0;
-    background-color: #2484BF;
+    background-color: #72adc3;
     color: white;
     border-radius: 5px;
     font-size: 16px;
@@ -495,8 +497,8 @@ main {
 
 .img_listed,
 .product .product_img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 180px;
 }
 
 .img_holder_flex {
@@ -536,6 +538,7 @@ main {
 .product .description .h3_listed {
     font-size: 16px;
     font-weight: 500;
+    text-align: center;
 }
 
 .product .description .h3_listed {
@@ -726,19 +729,21 @@ footer {
     position: sticky;
     z-index: 100;
     margin-top: 200px;
+    height: 75vh;
 }
 
 footer .main {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 50px;
 }
 
 footer .main img {
-    height: 200px;
+    height: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 footer .main .footer {
@@ -757,7 +762,7 @@ footer .main .footer .single-footer h4 {
     text-transform: capitalize;
     font-size: 22px;
     margin-bottom: 20px;
-    color: #2484BF;
+    color: #72adc3;
 }
 
 footer .main .footer .single-footer .footer-social a {
@@ -798,7 +803,7 @@ footer .main .footer .single-footer ul li a {
 
 footer .main .footer .single-footer ul li a i {
     margin-right: 10px;
-    color: #2484BF;
+    color: #72adc3;
 }
 
 footer .main .copy {
