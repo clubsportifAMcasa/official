@@ -247,12 +247,12 @@ a {
 
 .tarifs .tableau .orange,
 .text .orange {
-    background-color: #f29760;
+    background-color: #72acd3b2;
     color: white;
 }
 
 .staduims .orange_stad {
-    background-color: #e68d56;
+    background-color: #72acd3;
     color: white;
 }
 
@@ -271,7 +271,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ea4f45;
+    background-color: #72acd3;
     color: white;
     font-size: 16px;
     height: 5vh;
