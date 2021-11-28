@@ -9,7 +9,11 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -198,6 +202,16 @@ a {
 
 }
 
+.nav2 .nav2-list .categories li,
+.nav2 .nav2-list .categories li:hover {
+    transition: ease-in-out .2s;
+}
+
+.nav2 .nav2-list .categories li:hover {
+    cursor: pointer;
+    color: #72adc3;
+}
+
 .nav2 a {
     text-decoration: none;
     color: white;
@@ -208,18 +222,68 @@ a {
     margin-top: 21vh;
 }
 
+.grid-wrapper {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* background-color: #2196F3; */
+}
+
 .grid-container {
     display: grid;
     grid-gap: 50px;
     grid-template-columns: auto auto;
-    background-color: #2196F3;
     padding: 10px;
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 30vw; */
+    height: 50vh;
+}
+
+.grid-container .grid-item .container {
+    height: 100%;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container .grid-item .img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.grid-container .grid-item .img img {
+    width: 60%;
+}
+
+.grid-container .grid-item .text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    margin-bottom: 3%;
+}
+
+.grid-container .grid-item .text h1 {
+    font-size: 16px;
+    /* margin: 3% 0; */
+}
+
+.grid-container .grid-item .text p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.grid-container .grid-item .text a {
+    display: block;
+    margin-left: auto;
+    /* padding-bottom: 5%; */
 }
