@@ -260,7 +260,7 @@ main section{
 }
 
 .MAIN_WRAPPER .columns {
-    width: calc(100%/2 - 40px);
+    width: calc(100%/2);
     padding: 8px;
   }
   
