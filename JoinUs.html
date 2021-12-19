@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/JoinUs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/562a18c493.js" crossorigin="anonymous"></script>
+    <title>SIHA</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#Home"><img src="assets/csam-logo.png"></a></li>
+                <li>
+                    <div class="search-box">
+                        <div class="search-box-holder">
+                            <div class="search-categories">
+                                <div class="container">
+
+                                    <button class="click">All<i class="fas fa-caret-down"></i></button>
+                                    <div class="list">
+
+                                        <a href="./index.html"><button class="links">Home</button></a>
+                                        <a href="./categories.html"><button class="links">Categories</button></a>
+                                        <a href="./about.html"><button class="links">About Us</button></a>
+                                        <a href="./contact.html"><button class="links">Contact Us</button></a>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <input class="search-text" type="text" placeholder="Find products">
+                            <a href="./product not found.html" class="search-button">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <i class="fas fa-shopping-cart"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="carousel-wrapper">
+                <span id="item-1"></span>
+                <span id="item-2"></span>
+                <span id="item-3"></span>
+                <div class="carousel-item item-1">
+                    <a href="#item-3" class="arrow-prev arrow"></a>
+                    <a href="#item-2" class="arrow-next arrow"></a>
+                </div>
+
+                <div class="carousel-item item-2">
+                    <a href="#item-1" class="arrow-prev arrow"></a>
+                    <a href="#item-3" class="arrow-next arrow"></a>
+                </div>
+
+                <div class="carousel-item item-3">
+                    <a href="#item-2" class="arrow-prev arrow"></a>
+                    <a href="#item-1" class="arrow-next arrow"></a>
+                </div>
+        </section>
+        <div class="MAIN_WRAPPER">
+            <div class="columns">
+                <ul class="price">
+                    <li class="header">Standard</li>
+                    <li class="grey">99DH/year</li>
+                    <li>Important discounts on every paid activity.</li>
+                    <li>Free products coupons</li>
+                    <li>Membership card</li>
+                    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+
+            <div class="columns">
+                <ul class="price">
+                    <li class="header-vip">Premium</li>
+                    <li class="grey">149DH/year</li>
+                    <li>Free access to every paid tournament.</li>
+                    <li>Free products coupons</li>
+                    <li>VIP Membership card</li>
+                    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main">
+            <img src="assets/csam-logo-white.png">
+            <div class="footer">
+                <div class="single-footer">
+                    <h4>about us</h4>
+                    <div class="footer-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="single-footer">
+                    <h4>main menu</h4>
+                    <ul>
+                        <li><a href="./index.html"> Home</a></li>
+                        <li><a href="./contact.html"> Contact us</a></li>
+                        <li><a href="./categories.html"> Categories</a></li>
+                        <li><a href="#working"> How it works ?</a></li>
+                        <li><a href="#properties"> Our Properties</a></li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href=""> privacy policy</a></li>
+                        <li><a href=""> terms & conditions</a></li>
+                        <li><a href=""> disclaimer</a></li>
+                    </ul>
+                </div>
+                <div class="single-footer">
+                    <h4>contact us</h4>
+                    <ul class="contact-list">
+                        <li><a href=""><i class="fas fa-map-marker-alt"></i> Casablanca, Morocco</a></li>
+                        <li><a href=""><i class="fas fa-mobile-alt"></i> +212 644539276</a></li>
+                        <li><a href=""><i class="far fa-envelope"></i>csam@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy">
+                <p>Copyright &copy; 2022 by CSAM | all rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Drop down menu
+
+        let click = document.querySelector('.click');
+        let list = document.querySelector('.list');
+
+        click.addEventListener("click", () => {
+
+            list.classList.toggle('newlist');
+
+        });
+    </script>
+</body>
+
+</html>
